@@ -1,0 +1,14 @@
+p {
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    fieldset {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+    
+    input[type="text"], input[type="email"], input[type="radio"] {
+    margin: 5px 0;
+    }
