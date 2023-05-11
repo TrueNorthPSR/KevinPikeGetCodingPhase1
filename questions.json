@@ -1,0 +1,52 @@
+[
+    {
+        "Question": "Sharks are mammals.",
+        "Answer": false,
+        "comment": "they are actually classified as fish."
+    },
+
+    {
+        "Question": "Sea otters have a favorite rock they use to break open food.",
+        "comment": "True - they keep these treasures in the loose skin under their arms."
+    },
+
+    {
+        "Question3": "The blue whale is the biggest animal to have ever lived.",
+        "comment3": "True - and that includes dinosaurs"
+    },
+
+    {
+        "Question4": "The hummingbird egg is the world's smallest bird egg.",
+        "comment4": "True - on the flip side, ostriches lay the largest eggs."
+    },
+
+    {
+        "Question5": "Pigs roll in the mud because they don't like being clean.",
+        "comment5": "False - pigs have few sweat glands and their muddy baths help keep them cool."
+    },
+
+    {
+        "Question6": "Bats are blind.",
+        "comment6": "False - their eyes work, just not particularly well."
+    },
+
+    {
+        "Question7": "A dog sweats by panting its tongue.",
+        "comment7": "False - canines sweat through glands in their paws."
+    },
+
+    {
+        "Question8": "It takes a sloth two weeks to digest a meal.",
+        "comment8": "True - that's the slowest digestion time of any mammal."
+    },
+
+    {
+        "Question9": "The largest living frog is the Goliath frog of West Africa.",
+        "comment9": "True - this amphibian reaches lengths of 12.5 inches and weighs 7.2 pounds."
+    },
+
+    {
+        "Question10": "An ant can lift 1,000 times its body weight.",
+        "comment10": "False - ants can lift 5,000 times their body weight."
+    }
+]

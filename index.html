@@ -1,51 +1,38 @@
-<!--No need to overthink things, right? A webpage title of 'Survey Page' should
-be sufficient for the purpose of this intro-project?-->
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Survey Page </title>
     <script src="main.js"></script>
 </head>
 
-<!--Thinking that a brief statement that provides a little context for the user
-would be helpful.-->
 <body>
     <h1>Introduction</h1>
     <p>Welcome to Kevin's project page for the 'Intro to WebDev' phase of
         GetCoding's web-development program. If you have a few minutes, enter
         the basic information requested below and complete the survey. Thanks!</p>
 
-<!-- Thinking that the form immediately below could be used to collect each user's
-first name, last name, and email address. When the user submits the survey, the
-webpage would send the user their final survey results to the specified email,
-in addition with an personalised email that included the user's name.-->
-<fieldset>
-    <form>
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname"/><br/>
-
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname"/><br/>
-
+<form id="questionnaireForm">
+    <fieldset>
+        <legend>User Information:</legend>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"/><br/>
-    </form>
-</fieldset>
+        <input type="email" id="email" name="email" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Questionnaire:</legend>
+        <ul id="questionList"></ul>
+    </fieldset>
+    
+    <input type="submit" value="Submit">
+</form>
 
-<fieldset>
-        <p>Question 1:</p>
-        <input type="radio" id="q1a" name="q1" value="a"/>
-        <label for="q1a">Answer A</label><br/>
-        <input type="radio" id="q1b" name="q1" value="b"/>
-        <label for="q1b">Answer B</label><br/>
-        <input type="radio" id="q1c" name="q1" value="c"/>
-        <label for="q1c">Answer C</label><br/>
-        <input type="radio" id="q1d" name="q1" value="d"/>
-        <label for="q1d">Answer D</label><br/>
-
-        <button type="button" id="backBtn">Back</button>
-        <button type="button" id="nextBtn">Next</button>
-        <button id="submitBtn" onclick="submitAnswer()">Submit</button>
-</fieldset>
+<div id="errorMsg"></div>
+</div>
 </body>
 </html>
