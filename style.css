@@ -6,6 +6,10 @@
             background-color: #f5f5f5;
         }
 
+        header, footer {
+            background-color: #48D147;
+        }
+        
         html, body {
             width: 100%;
             margin: 0;
@@ -13,19 +17,19 @@
             font-family: Roboto, sans-serif;
             background-color: #ffffff;
             color: #000000;
-          }
+        }
 
         img {
             max-width: 100%;
             height: auto;
-          }
+        }
 
         h1, h2, h3, h4, h5, h6 {
             margin-top: 0;
         }
 
         a {
-            color: #000000;
+            color: #00CED1;
         }
           
           a:hover {
@@ -51,6 +55,18 @@
             padding: 20px;
             margin-bottom: 20px;
             background-color: #fff;
+        }
+
+        .btn-primary {
+            color: #FFFFFF;
+            background-color: #00CED1;
+            border-color: #00CED1;
+        }
+
+        .btn-secondary {
+            color: #FFFFFF;
+            background-color: #FCCFCC;
+            border-color: #FCCFCC;
         }
         
         fieldset {
