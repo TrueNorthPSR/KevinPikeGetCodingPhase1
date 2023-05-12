@@ -20,7 +20,19 @@
         .section {
           margin-top: 20px;
         }
-      </style>
+
+        .footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+        }
+
+        .footer a {
+        margin: 0 10px;
+        color: #333;
+        text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,26 +47,32 @@
         GetCoding's web-development program. If you have a few minutes, enter
         the basic information requested below and complete the survey. Thanks!</p>
 
-<form id="questionnaireForm">
-    <fieldset>
-        <legend>User Information:</legend>
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </fieldset>
-    
-    <fieldset>
-        <legend>Questionnaire:</legend>
-        <ul id="questionList"></ul>
-    </fieldset>
-    
-    <input type="submit" value="Submit">
-</form>
+    <form id="questionnaireForm">
+        <fieldset>
+            <legend>User Information:</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Questionnaire:</legend>
+            <ul id="questionList"></ul>
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+    </form>
 
-<div id="errorMsg"></div>
-</div>
+    <div id="errorMsg"></div>
+    </div>
+
+    <div class="footer">
+        <a href="privacy_policy.txt">Privacy Policy</a>
+        <a href="terms_of_service.txt">Terms of Service</a>
+    </div>
+
 </body>
 </html>
